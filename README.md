@@ -25,7 +25,7 @@ Navigate to ``http://MY_IP_ADDRESS`` to confirm the setup.
 #### Build docker image from source
 
 1. Install [Docker](https://docs.docker.com/engine/installation/)
-2. Clone this repo with `git clone https://github.com/mushorg/conpot.git` and `cd conpot/docker`
+2. Clone this repo with `git clone https://github.com/alex14324/coinpot.git` and `cd coinpot/docker`
 3. Run `docker build -t conpot .`
 4. Run `docker run -it -p 80:8800 -p 102:10201 -p 502:5020 -p 161:16100/udp -p 47808:47808/udp -p 623:6230/udp -p 21:2121 -p 69:6969/udp -p 44818:44818 --network=bridge conpot`
 
