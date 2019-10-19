@@ -1,11 +1,5 @@
 # Conpot
 
-[![Build Status](https://travis-ci.org/mushorg/conpot.svg?branch=master)](https://travis-ci.org/mushorg/conpot)
-[![Code Health](https://landscape.io/github/mushorg/conpot/master/landscape.png)](https://landscape.io/github/mushorg/conpot/master)
-[![Python Version](https://img.shields.io/pypi/pyversions/conpot.svg)](https://pypi.python.org/pypi/Conpot) 
-[![PyPI version](https://badge.fury.io/py/Conpot.svg)](https://badge.fury.io/py/Conpot)
-[![Docs](https://readthedocs.org/projects/conpot/badge/?version=latest)](https://conpot.readthedocs.io/en/latest/)
-[![Coverage Status](https://coveralls.io/repos/github/mushorg/conpot/badge.svg?branch=master)](https://coveralls.io/github/mushorg/conpot?branch=master)
 
 ## About
 
@@ -43,7 +37,7 @@ Navigate to `http://MY_IP_ADDRESS` to confirm the setup.
 #### Build from source and run with docker-compose
 
 1. Install [docker-compose](https://docs.docker.com/compose/install/) 
-2. Clone this repo with `git clone https://github.com/mushorg/conpot.git` and `cd conpot/docker`
+2. Clone this repo with `git clone https://github.com/alex14324/coinpot.git` and `cd coinpot/docker`
 3. Build the image with `docker-compose build`
 4. Test if everything is running correctly with `docker-compose up`
 5. Permanently run as a daemon with `docker-compose up -d`
